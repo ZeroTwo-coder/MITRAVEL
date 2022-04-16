@@ -66,3 +66,42 @@
 .main_menu:hover {
     transform: scale(1.15);
 }
+
+.main_header {
+    color: rgb(255, 255, 255);
+    max-width: 600px
+}
+
+.word_main_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 120px;
+    padding: 10px 13px;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.title_main_header {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.text_main_header {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.button_main_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 30px 40px;
+    font-size: 10px;
+    background: rgb(255, 94, 65);
+}
