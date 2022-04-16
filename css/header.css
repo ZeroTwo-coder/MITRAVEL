@@ -18,9 +18,9 @@
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     padding: 0 150px;
-    backdrop-filter:  blur(1px);
+    backdrop-filter:  blur(2px);
 }
 
 .menu {
