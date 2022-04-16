@@ -105,3 +105,19 @@
     font-size: 10px;
     background: rgb(255, 94, 65);
 }
+
+.search_header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.search_header input {
+    width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    padding: 60px;
+    font-size: 18px;
+    height: 90px;
+}
