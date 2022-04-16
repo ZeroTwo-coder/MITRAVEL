@@ -90,7 +90,9 @@
 }
 
 .text_main_header {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.8;
     margin-top: 40px;
 }
 
@@ -98,10 +100,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     margin-top: 50px;
-    padding: 30px 40px;
+    padding: 25px 35px;
     font-size: 10px;
     background: rgb(255, 94, 65);
 }
@@ -110,6 +112,7 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
+    align-items: flex-end;
 }
 
 .search_header input {
@@ -121,3 +124,21 @@
     font-size: 18px;
     height: 90px;
 }
+
+/* .photo_search_header {
+    position: relative
+}
+
+.photo {
+
+}
+
+.photo img {
+    width: 500px;
+}
+
+.left_right {
+    width: 500px;
+    height: 50px;
+    background: rgb(0, 255, 255);
+} */
