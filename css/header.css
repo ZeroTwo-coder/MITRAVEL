@@ -109,18 +109,18 @@
 }
 
 .search_header {
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .search_header input {
+    margin-bottom: 30px;
     width: 70%;
     height: 100%;
     outline: none;
     border: none;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
     padding: 60px;
     font-size: 18px;
     height: 90px;
