@@ -112,11 +112,12 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
 }
 
 .search_header input {
     width: 70%;
+    height: 100%;
     outline: none;
     border: none;
     border-radius: 8px 8px 0 0;
@@ -124,21 +125,3 @@
     font-size: 18px;
     height: 90px;
 }
-
-/* .photo_search_header {
-    position: relative
-}
-
-.photo {
-
-}
-
-.photo img {
-    width: 500px;
-}
-
-.left_right {
-    width: 500px;
-    height: 50px;
-    background: rgb(0, 255, 255);
-} */
