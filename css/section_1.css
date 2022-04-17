@@ -1,4 +1,14 @@
 .section_one {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_section_1 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
 }
