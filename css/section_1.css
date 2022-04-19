@@ -12,3 +12,23 @@
     width: 80%;
     justify-content: space-between;
 }
+
+.section_one h1 {
+    font-size: 55px;
+    width: 600px;
+}
+
+.item_card_section {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 5px;
+    border-radius: 20px;
+}
+
+.item_card_section img{
+    height: 600px;
+}
